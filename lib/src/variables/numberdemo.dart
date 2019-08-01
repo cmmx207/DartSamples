@@ -22,3 +22,29 @@ praseNumber(var param) {
       break;
   }
 }
+
+
+///@link
+///https://stackoverflow.com/questions/25905781/how-to-convert-string-to-binary/25906926
+operator(var param1,var param2,String operType){
+  switch(operType) {
+    case "<<" :
+      print("$param1 $operType $param2 = ${param1<<param2} ${(param1<<param2).toRadixString(2)}");
+      break;
+    case ">>" :
+      print("$param1 $operType $param2 = ${param1>>param2} ${(param1>>param2).toRadixString(2)}");
+      break;
+    case "|" :
+      print("$param1 $operType $param2 = ${param1|param2} ${(param1|param2).toRadixString(2)}");
+      break;
+    case "&" :
+      print("$param1 $operType $param2 = ${param1&param2} ${(param1&param2).toRadixString(2)}");
+      break;
+    case "^" :
+      print("$param1 $operType $param2 = ${param1&param2} ${(param1&param2).toRadixString(2)}");
+      break;
+    case "~" :
+      print("$param1 $operType $param2 = ${param1&param2} ${(param1&param2).toRadixString(2)}");
+      break;
+  }
+}
