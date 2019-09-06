@@ -1,0 +1,12 @@
+
+main() {
+  var s ={'apple','banana','apple','banana'};
+  print(s);
+
+  var elements = <String>{};
+  elements.add('peach');
+  elements.add('apple');
+  elements.add('apple');
+  print(elements);
+
+}

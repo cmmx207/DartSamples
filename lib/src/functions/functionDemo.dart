@@ -21,7 +21,7 @@ void moreParamNecessaryFunction([int param1,int param2=22,int param3,int param4]
 
 main(){
   var x = decline(5);
-  print(x(1));
+  print('x=${x(1)}');
 
   var callbacks = [];//List作函数的集合容器
   for(var i=0;i<3;i++) {
